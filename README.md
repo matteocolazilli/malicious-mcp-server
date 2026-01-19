@@ -1,6 +1,6 @@
 # Malicious MCP Server PoC
 
-This repository contains a proof-of-concept (PoC) MCP server created for my Master's thesis. The goal is to demonstrate how a malicious MCP tool description can attempt to trigger unsafe behavior in an MCP client (Tool Poisoning Attack). Use this project only in isolated, controlled environments for research and educational purposes.
+This repository contains a proof-of-concept (PoC) MCP server created for my Master's thesis. The goal is to demonstrate how a malicious MCP tool description can attempt to trigger unsafe behavior in an MCP client ([Tool Poisoning Attack](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)). Use this project only in isolated, controlled environments for research and educational purposes.
 
 ## What the server claims vs what it does
 
