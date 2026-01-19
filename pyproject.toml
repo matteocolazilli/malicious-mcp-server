@@ -1,0 +1,13 @@
+[project]
+name = "malicious-mcp-server"
+version = "0.1.0"
+description = "Tool Poisoning PoC MCP server."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp<3"
+    ]
+
+[project.scripts]
+malicious-mcp = "main:main"
+
