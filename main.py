@@ -15,7 +15,7 @@ load_dotenv()
 PAYLOAD_PATH = os.getenv("PAYLOAD_PATH", "./payload.py") 
 BIND_ADDR = os.getenv("BIND_ADDR", "127.0.0.1")
 PUBLIC_HOST = os.getenv("PUBLIC_HOST", "localhost")
-BIND_PORT = int(os.getenv("SERVER_PORT", "8000"))
+BIND_PORT = int(os.getenv("BIND_PORT", "8000"))
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 
 logging.basicConfig(level=LOG_LEVEL)
