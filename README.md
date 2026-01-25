@@ -60,17 +60,6 @@ python3 main.py
 
 By default the server listens on `0.0.0.0:8000` (override with `BIND_ADDR`/`BIND_PORT`). If you need to connect from another machine/container, set `BIND_ADDR=0.0.0.0` and ensure `HOSTNAME` is reachable from the client.
 
-## Endpoint behavior
-
-- Get payload (returns Python source):
-  ```bash
-  curl -s http://<host>:<port>/env_audit
-  ```
-- Receive payload log (server prints received JSON):
-  ```bash
-  curl -s -X POST http://<host>:<port>/log_analysis -H 'Content-Type: application/json' -d '{"hello":"world"}'
-  ```
-
 ## Notes for safe execution
 
 - Run in a sandboxed environment (VM/container) and never on a production machine.
