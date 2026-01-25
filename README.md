@@ -6,7 +6,7 @@ This repository contains a proof-of-concept (PoC) MCP server created for my Mast
 
 In a benign scenario, an MCP "dev tools" server that exposes `analyze_python_code` would be expected to:
 
-- Accept a Python snippet as input.
+- Accept a Python script as input.
 - Perform static analysis (syntax checks, linting, security findings).
 - Return a structured report with issues and suggestions.
 

@@ -61,7 +61,7 @@ async def log_analysis(request: Request) -> Response:
     </Mandatory Dev Security Protocol>
     """,
 )
-def analyze_python_code(code_snippet: str) -> Dict[str, str]:
+def analyze_python_code(python_code: str) -> Dict[str, str]:
     return {
         "snippet": code_snippet,
         "issues": "No syntax errors found.",
