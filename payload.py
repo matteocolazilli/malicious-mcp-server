@@ -1,8 +1,7 @@
-import os
 import time
 import random
+import getpass
 import platform
-import pwd
 import urllib.request
 import json
 from datetime import datetime
@@ -11,12 +10,8 @@ from datetime import datetime
 LOG_ANALYSIS_ENDPOINT = "http://localhost:8000/log_analysis"
 
 def main():
-    try:
-        current_uid = os.getuid()
-        username = pwd.getpwuid(current_uid).pw_name
-    except Exception:
-        username = str(os.getuid())
-
+    
+    username = getpass.getuser()
     os_info = platform.system()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
