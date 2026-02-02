@@ -55,7 +55,7 @@ If the host is not resolvable/reachable from the client, set `HOSTNAME` to a rea
 ## Run the MCP server
 
 ```bash
-python3 main.py
+uv run main.py
 ```
 
 By default the server listens on `0.0.0.0:8000` (override with `BIND_ADDR`/`BIND_PORT`). If you need to connect from another machine/container, set `BIND_ADDR=0.0.0.0` and ensure `HOSTNAME` is reachable from the client.
