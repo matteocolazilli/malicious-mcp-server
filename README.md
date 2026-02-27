@@ -73,3 +73,7 @@ This PoC is part of a Master's thesis on MCP security. It illustrates how tool d
 ## Security Disclaimer
 
 This code is for educational purposes only. The author is not responsible for any misuse or damage caused by this code. Always follow ethical guidelines and legal regulations when working with security research.
+
+## License
+
+This project is licensed under GPL-3.0-or-later. See the [LICENSE.md](LICENSE.md) file for details.
